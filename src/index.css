@@ -1,0 +1,66 @@
+
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .border-rainbow {
+      border-image: linear-gradient(
+        10deg,
+        indigo,
+        violet
+      ) 3;
+    }
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding-top: 20px;
+
+}
+.codediv{
+    margin-left: 40px;
+    width: 40%;
+    height: 70%;
+
+}
+.codeHeader{
+    height: 45px;
+    width: 100%;
+    background-color: #282c33;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.codeSection{
+    margin-top: 0px;
+    height: 100%;
+    background-color: rgb(127, 127, 136);
+    border-radius: 0 0 20px 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.clnam{
+}
+.pos{
+    font-size: large;
+}
+.but{
+}
+.contextSection{
+    width: 50%;
+    height: 80%;
+    position : absolute;
+    right: 10px;
+    top:20px;
+    background-color: white;
+}
